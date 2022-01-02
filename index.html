@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+</head>
+
+<body>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0;
+        }
+        
+        p {
+            font-size: 26px;
+        }
+        
+        h1 {
+            text-align: center;
+        }
+        
+        header {
+            font-family: 'Dokdo', cursive;
+            font-size: 29px;
+            padding: 21px;
+        }
+        
+        main {
+            margin-left: 120px;
+            width: 100%;
+            margin-top: 40px;
+        }
+        
+        .flex {
+            width: 100%;
+            float: left;
+            padding: 7px;
+            padding-left: 10px;
+            display: flex;
+            overflow: hidden;
+            border-radius: 3px;
+            float: left;
+        }
+        
+        img {
+            width: 20%;
+            border-radius: 4px;
+            padding: 5px;
+            float: left;
+            border-radius: 4px;
+        }
+        
+        img:hover {
+            transform: scale(3, 3);
+            transition: .2s transform;
+            width: 100vw;
+            height: 100vh;
+        }
+        
+        div {
+            text-align: center;
+        }
+        
+        .img-area {
+            flex-direction: column;
+            display: flex;
+        }
+    </style>
+    <div class="flex"></div>
+    <h1>Image Gallery</h1>
+    <br>
+    <br>
+    <div class="img-area">
+
+        <div class="flex"> <img src="https://c4.wallpaperflare.com/wallpaper/246/739/689/digital-digital-art-artwork-illustration-abstract-hd-wallpaper-preview.jpg" alt=""></div>
+        <div class="flex"> <img src="https://c4.wallpaperflare.com/wallpaper/681/554/339/abstract-planet-space-purple-wallpaper-thumb.jpg" alt=""></div>
+        <div class="flex"> <img src="https://c4.wallpaperflare.com/wallpaper/385/361/317/digital-digital-art-artwork-blue-purple-hd-wallpaper-thumb.jpg" alt=""></div>
+        <div class="flex"> <img src="https://c4.wallpaperflare.com/wallpaper/560/984/964/artwork-neon-neon-glow-cats-street-hd-wallpaper-thumb.jpg" alt=""></div>
+        <div class="flex"> <img src="https://c4.wallpaperflare.com/wallpaper/283/433/102/artwork-science-fiction-concept-art-original-characters-neon-hd-wallpaper-thumb.jpg" alt=""></div>
+        <div class="flex"> <img src="https://c4.wallpaperflare.com/wallpaper/698/758/369/artwork-retrowave-vaporwave-neon-neon-glow-hd-wallpaper-thumb.jpg" alt=""></div>
+    </div>
+    <div class="img-area">
+        <div class="flex"> <img src="https://c4.wallpaperflare.com/wallpaper/571/755/657/symmetry-awesome-3d-digital-art-wallpaper-thumb.jpg" alt=""></div>
+        <div class="flex"> <img src="https://c4.wallpaperflare.com/wallpaper/41/813/218/star-celestial-body-space-light-wallpaper-thumb.jpg" alt=""></div>
+        <div class="flex"> <img src="https://c4.wallpaperflare.com/wallpaper/62/203/637/sunset-abstract-moon-science-fiction-wallpaper-thumb.jpg" alt=""></div>
+        <div class="flex"> <img src="https://c4.wallpaperflare.com/wallpaper/678/58/326/abstract-laser-optical-device-device-wallpaper-thumb.jpg" alt=""></div>
+        <div class="flex"> <img src="https://c4.wallpaperflare.com/wallpaper/444/635/665/star-space-light-design-wallpaper-thumb.jpg" alt=""></div>
+        <div class="flex"> <img src="https://c4.wallpaperflare.com/wallpaper/988/260/891/star-celestial-body-atmosphere-space-wallpaper-thumb.jpg" alt=""></div>
+
+    </div>
+</body>
+
+</html>
